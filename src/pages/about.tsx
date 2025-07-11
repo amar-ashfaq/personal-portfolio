@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
-function Projects() {
+function About() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
@@ -14,7 +14,7 @@ function Projects() {
           className="w-full bg-[#c1d9ea] py-40 px-8 text-center items-center justify-center"
         >
           <h1 className="text-[#343434] text-8xl font-medium font-sans mb-12">
-            My Projects
+            About Me
           </h1>
         </div>
       </main>
@@ -22,4 +22,4 @@ function Projects() {
     </div>
   );
 }
-export default Projects;
+export default About;
